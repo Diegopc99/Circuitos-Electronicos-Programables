@@ -1,0 +1,128 @@
+ORG 0
+;VHDL "ROM_blank_modificada_s7.vhd", "picocode_s7.vhd", "picocode_s7"
+
+;Version do exercicio 1 -> RS232 de saida
+
+;i_interrupcion   DSIN   $00
+i_intermay     	 DSIN 	$02 ;Interruptores de maior peso
+i_intermen 	   	 DSIN   $01 ;interruptores de menos peso
+i_puls 		  	 DSIN 	$03
+
+;Nota: podo usar unha entrada a maiores para os interruptores? Porque no fragmento dado poñen os inteeruptores en dsin01 pero son 16, e a entrada é de 8
+
+
+;Portos de saída
+interr	   		DSOUT 	  $00
+Leds        	DSOUT     $01
+DIGIT0			DSOUT	  $02    ;Saida de data interruptores
+DIGIT1			DSOUT 	  $03
+DIGIT2			DSOUT	  $04
+DIGIT3			DSOUT	  $05
+						  	  	;Queda por os portos de indentificación Int/Puls (non fan falta)
+DIGIT4			DSOUT	  $06	;saida data pulsadores
+DIGIT5			DSOUT	  $07
+DIGIT6			DSOUT	  $08
+DIGIT7			DSOUT	  $09
+UART_OUT		DSOUT	  $0A    ;Saída para UART RS232
+
+
+;Rexistro a utilizaar
+
+contador        EQU       s0
+est_act_may		EQU		  s1   ; "ESTADO ACTUAL INTERRUPTORES MAYOR PESO"
+est_pas_may		EQU		  s2   ; "ESTADO PASADO INTERRUPTORES MAYOR PESO"
+est_act_puls	EQU		  s3   ; "ESTADO ACTUAL PULSADORES"
+est_pas_puls	EQU		  s4   ; "ESTADO PASADO PULSADORES"
+est_act_men		EQU		  s5   ; "ESTADO ACTUAL INSTTERUPTORES MENOR PESO"
+est_pas_men		EQU		  s6   ; "ESTADO PASADO INSTTERUPTORES MENOR PESO"
+AUX 			EQU		  s7   ;  "Rexistro auxiliar"
+
+				EINT
+
+	 			;PRIMEIRO POÑER CONTADOR A CERO, E "DESACTIVAR" O VISUALIZADOR
+inicio:			LOAD   CONTADOR,$00
+				LOAD   AUX,$00
+				OUT	   AUX, DIGIT0
+				OUT	   AUX, DIGIT1
+				OUT	   AUX, DIGIT2
+				OUT	   AUX, DIGIT3
+				OUT	   AUX, DIGIT4
+				OUT	   AUX, DIGIT5
+				OUT	   AUX, DIGIT6
+				OUT	   AUX, DIGIT7
+				LOAD   SA,	$1E    ;T
+				LOAD   SB,	$2A	   ;N
+				LOAD   SC, 	$0C	   ;I
+				LOAD   SD,	$1C	   ;L
+				LOAD   SE,	$7C	   ;U
+				LOAD   SF,	$CE	   ;P
+bucle:			IN 	   est_act_may,i_intermay
+				COMP   est_act_may,est_pas_may     ;Buscar se podese poñer jump nz
+				CALL   nz,cambio_intermay
+intermen:		IN	   est_act_men,i_intermen
+				COMP   est_act_men,est_pas_men
+				CALL   nz,cambio_intermen
+pulsadores:		IN	   est_act_puls, i_puls
+				COMP   est_act_puls, est_pas_puls
+				CALL   nz, cambio_puls
+				LOAD   s2,s1       ;load est_pas <= est_act
+				LOAD   s4,s3
+				LOAD   s6,s5
+				JUMP   bucle		
+				
+interrupcion:	ADD contador, $01
+				OUT contador,interr
+				OUT contador,UART_OUT
+				RETI ENABLE		
+				
+cambio_intermay: OUT    est_act_may,Leds	
+				 RET
+				
+cambio_intermen: COMP    est_act_men,$00
+				 JUMP 	 Z,out_inter
+				 OUT	est_act_men,DIGIT0
+				 						  	  ;	 LOAD   AUX, $01
+				 OUT 	SA,DIGIT1   ; T
+				 OUT 	SB,DIGIT2	 ; N
+				 OUT 	SC,DIGIT3   ; I
+				 RET
+out_inter:		 OUT	est_act_men,DIGIT0
+				 LOAD AUX, $00
+			 	 OUT  AUX,DIGIT1
+  	   			 OUT  AUX,DIGIT2
+	     		 OUT  AUX,DIGIT3
+				
+				
+				 RET
+				
+cambio_puls:	 COMP 	est_act_puls,$00
+				 JUMP 	Z, out_puls
+				 		   		   			;	 LOAD	AUX, $01	
+					OUT	est_act_puls,DIGIT4		
+				 OUT 	SD,DIGIT5
+				 OUT 	SE,DIGIT6
+				 OUT 	SF,DIGIT7
+				 RET
+out_puls:		 OUT	est_act_puls,DIGIT4
+				 LOAD AUX,$00
+				 OUT AUX,DIGIT5
+				 OUT AUX,DIGIT6
+				 OUT AUX,DIGIT7
+				 RET
+
+				
+;cambio_formato:	 COMP AUX,$00
+;				 JUMP NZ, next1
+;				 LOAD AUX, $3F
+;next1:			 COMP AUX, $01
+;				 JUMP NZ, next2
+;				 LOAD AUX, $06
+;next2:			 COMP AUX, $02
+;				 JUMP NZ,
+				
+
+
+					
+								
+ORG $3FF
+               JUMP interrupcion

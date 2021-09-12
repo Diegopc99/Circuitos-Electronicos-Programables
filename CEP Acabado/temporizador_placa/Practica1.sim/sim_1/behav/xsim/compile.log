@@ -1,0 +1,150 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/D_flip_flop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'D_flip_flop'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/detector_flancos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'detector_flancos'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/mux_2c_1b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_2c_1b'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/registro_contol.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registro_contol'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/registro_recarga.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registro_recarga'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/D_flip_flop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'D_flip_flop'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/mux_2c_1b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_2c_1b'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/registro_contol.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registro_contol'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/registro_recarga.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registro_recarga'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/registro_contol.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registro_contol'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/registro_recarga.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registro_recarga'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP/Practica1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/D_flip_flop.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'D_flip_flop'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temporizador_8_bits'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/detector_flancos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'detector_flancos'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/mux_2c_1b.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux_2c_1b'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/registro_contol.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registro_contol'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/registro_recarga.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'registro_recarga'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Temorizador_8_bits_TB'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/contador_descendente.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'contador_descendente'

@@ -1,0 +1,15 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.srcs/sim_1/new/Interfaz_ps2_TB.vhd,1603210190,vhdl,,,,interfaz_ps2_tb,,,,,,,,
+C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.srcs/sources_1/new/Biestable_ps2_data.vhd,1603211639,vhdl,,,,biestable_ps2_data,,,,,,,,
+C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.srcs/sources_1/new/Detector_paridad.vhd,1602597720,vhdl,,,,detector_paridad,,,,,,,,
+C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.srcs/sources_1/new/Maquina_estados.vhd,1602780936,vhdl,,,,maquina_estados,,,,,,,,
+C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.srcs/sources_1/new/Reg.vhd,1602597720,vhdl,,,,reg,,,,,,,,
+C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.srcs/sources_1/new/Reg_parity.vhd,1602780250,vhdl,,,,reg_parity,,,,,,,,
+C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.srcs/sources_1/new/Unidad_Operativa.vhd,1602606724,vhdl,,,,unidad_operativa,,,,,,,,
+C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.srcs/sources_1/new/contador.vhd,1602597720,vhdl,,,,contador_estados,,,,,,,,
+C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.srcs/sources_1/new/detector_flancos.vhd,1602597718,vhdl,,,,detector_flancos,,,,,,,,
+C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.srcs/sources_1/new/interfaz_ps2.vhd,1602779815,vhdl,,,,interfaz_ps2,,,,,,,,
+C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.srcs/sources_1/new/reg_desplazamiento.vhd,1602597720,vhdl,,,,reg_desplazamiento,,,,,,,,

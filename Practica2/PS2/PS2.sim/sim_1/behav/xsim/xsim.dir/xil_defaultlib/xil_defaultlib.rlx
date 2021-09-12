@@ -1,0 +1,13 @@
+0.6
+2018.3
+Dec  6 2018
+23:39:36
+/home/diego/Escritorio/CEP/Practica2/PS2/PS2.srcs/sim_1/new/Interfaz_ps2_TB.vhd,1602349071,vhdl,,,,interfaz_ps2_tb,,,,,,,,
+/home/diego/Escritorio/CEP/Practica2/PS2/PS2.srcs/sources_1/new/Detector_paridad.vhd,1602337748,vhdl,,,,detector_paridad,,,,,,,,
+/home/diego/Escritorio/CEP/Practica2/PS2/PS2.srcs/sources_1/new/Maquina_estados.vhd,1602348236,vhdl,,,,maquina_estados,,,,,,,,
+/home/diego/Escritorio/CEP/Practica2/PS2/PS2.srcs/sources_1/new/Reg.vhd,1601995039,vhdl,,,,reg,,,,,,,,
+/home/diego/Escritorio/CEP/Practica2/PS2/PS2.srcs/sources_1/new/Unidad_Operativa.vhd,1602347690,vhdl,,,,unidad_operativa,,,,,,,,
+/home/diego/Escritorio/CEP/Practica2/PS2/PS2.srcs/sources_1/new/contador.vhd,1602336903,vhdl,,,,contador_estados,,,,,,,,
+/home/diego/Escritorio/CEP/Practica2/PS2/PS2.srcs/sources_1/new/detector_flancos.vhd,1601390513,vhdl,,,,detector_flancos,,,,,,,,
+/home/diego/Escritorio/CEP/Practica2/PS2/PS2.srcs/sources_1/new/interfaz_ps2.vhd,1602003442,vhdl,,,,interfaz_ps2,,,,,,,,
+/home/diego/Escritorio/CEP/Practica2/PS2/PS2.srcs/sources_1/new/reg_desplazamiento.vhd,1602339856,vhdl,,,,reg_desplazamiento,,,,,,,,

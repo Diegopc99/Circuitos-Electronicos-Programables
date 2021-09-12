@@ -1,0 +1,12 @@
+
+{ 
+    crc :  7885828345989589644  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 8c743ac7bfa44c6fa1d2051f2bac39fb --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Interfaz_ps2_TB_behav xil_defaultlib.Interfaz_ps2_TB" , 
+    buildDate : "Dec  6 2018" , 
+    buildTime : "23:39:36" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/Interfaz_ps2_TB_behav/xsimk\"   \"xsim.dir/Interfaz_ps2_TB_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/Interfaz_ps2_TB_behav/obj/xsim_1.lnx64.o\" -L\"/home/diego/Vivado/Vivado/2018.3/lib/lnx64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

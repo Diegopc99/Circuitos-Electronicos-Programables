@@ -1,0 +1,39 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov 23 17:05:32 2020
+# Process ID: 10428
+# Current directory: C:/Users/alumno/Desktop/Practica2/Practica2/PS2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11012 C:\Users\alumno\Desktop\Practica2\Practica2\PS2\PS2.xpr
+# Log file: C:/Users/alumno/Desktop/Practica2/Practica2/PS2/vivado.log
+# Journal file: C:/Users/alumno/Desktop/Practica2/Practica2/PS2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Interfaz_ps2_TB.tcl
+run 18 ms
+close_sim
+reset_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation -mode post-implementation -type functional
+source Interfaz_ps2_TB.tcl
+run 4 ms
+synth_design -rtl -name rtl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.runs/impl_1/interfaz_ps2.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.runs/impl_1/interfaz_ps2.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_sim

@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../SistemaEmpotradoPicoblaze.srcs/sources_1/new/D_flip_flop.vhd" \
+"../../../../SistemaEmpotradoPicoblaze.srcs/sources_1/new/Temporizador_8_bits.vhd" \
+"../../../../SistemaEmpotradoPicoblaze.srcs/sources_1/new/contador_descendente.vhd" \
+"../../../../SistemaEmpotradoPicoblaze.srcs/sources_1/new/detector_flancos.vhd" \
+"../../../../SistemaEmpotradoPicoblaze.srcs/sources_1/new/mux_2c_1b.vhd" \
+"../../../../SistemaEmpotradoPicoblaze.srcs/sources_1/new/registro_contol.vhd" \
+"../../../../SistemaEmpotradoPicoblaze.srcs/sources_1/new/registro_recarga.vhd" \
+"../../../../SistemaEmpotradoPicoblaze.srcs/sim_1/new/Temorizador_8_bits_TB.vhd" \
+
+# Do not sort compile order
+nosort

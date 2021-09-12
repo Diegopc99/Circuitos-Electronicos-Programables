@@ -1,0 +1,14 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../PS2.srcs/sources_1/new/Detector_paridad.vhd" \
+"../../../../PS2.srcs/sources_1/new/Maquina_estados.vhd" \
+"../../../../PS2.srcs/sources_1/new/Reg.vhd" \
+"../../../../PS2.srcs/sources_1/new/Unidad_Operativa.vhd" \
+"../../../../PS2.srcs/sources_1/new/contador.vhd" \
+"../../../../PS2.srcs/sources_1/new/detector_flancos.vhd" \
+"../../../../PS2.srcs/sources_1/new/interfaz_ps2.vhd" \
+"../../../../PS2.srcs/sources_1/new/reg_desplazamiento.vhd" \
+"../../../../PS2.srcs/sim_1/new/Interfaz_ps2_TB.vhd" \
+
+# Do not sort compile order
+nosort

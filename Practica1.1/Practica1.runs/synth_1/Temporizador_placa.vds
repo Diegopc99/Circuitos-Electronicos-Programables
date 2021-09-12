@@ -1,0 +1,414 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Sep 22 15:52:14 2020
+# Process ID: 11118
+# Current directory: /home/diego/Escritorio/CEP/Practica1.1/Practica1.runs/synth_1
+# Command line: vivado -log Temporizador_placa.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Temporizador_placa.tcl
+# Log file: /home/diego/Escritorio/CEP/Practica1.1/Practica1.runs/synth_1/Temporizador_placa.vds
+# Journal file: /home/diego/Escritorio/CEP/Practica1.1/Practica1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Temporizador_placa.tcl -notrace
+Command: synth_design -top Temporizador_placa -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11138 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1386.637 ; gain = 0.000 ; free physical = 2543 ; free virtual = 6986
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Temporizador_placa' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_placa.vhd:59]
+INFO: [Synth 8-3491] module 'bin_to_7seg_anodo' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/bin_to_7_seg.vhd:34' bound to instance 'inst_bin_7_seg_primer_seg' of component 'bin_to_7seg_anodo' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_placa.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'bin_to_7seg_anodo' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/bin_to_7_seg.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'bin_to_7seg_anodo' (1#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/bin_to_7_seg.vhd:48]
+INFO: [Synth 8-3491] module 'bin_to_7seg_anodo' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/bin_to_7_seg.vhd:34' bound to instance 'inst_bin_7_seg_segundo_seg' of component 'bin_to_7seg_anodo' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_placa.vhd:177]
+INFO: [Synth 8-3491] module 'Visualizador_dinamico' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Visualizador_dinamico.vhd:36' bound to instance 'inst_visualizador_dinamico' of component 'Visualizador_dinamico' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_placa.vhd:191]
+INFO: [Synth 8-638] synthesizing module 'Visualizador_dinamico' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Visualizador_dinamico.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'Visualizador_dinamico' (2#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Visualizador_dinamico.vhd:75]
+INFO: [Synth 8-3491] module 'Temporizador_8_bits' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:34' bound to instance 'inst_temporizador_8_bits' of component 'Temporizador_8_bits' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_placa.vhd:229]
+INFO: [Synth 8-638] synthesizing module 'Temporizador_8_bits' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:46]
+INFO: [Synth 8-3491] module 'D_flip_flop' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/D_flip_flop.vhd:34' bound to instance 'inst_D_flip_flop' of component 'D_flip_flop' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'D_flip_flop' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/D_flip_flop.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'D_flip_flop' (3#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/D_flip_flop.vhd:41]
+INFO: [Synth 8-3491] module 'contador_descendente' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/contador_descendente.vhd:34' bound to instance 'inst_contador_descendente' of component 'contador_descendente' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'contador_descendente' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/contador_descendente.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'contador_descendente' (4#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/contador_descendente.vhd:44]
+INFO: [Synth 8-3491] module 'detector_flancos' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/detector_flancos.vhd:34' bound to instance 'inst_detector_flancos' of component 'detector_flancos' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'detector_flancos' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/detector_flancos.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'detector_flancos' (5#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/detector_flancos.vhd:42]
+INFO: [Synth 8-3491] module 'mux_2c_1b' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/mux_2c_1b.vhd:34' bound to instance 'inst_mux_2c_1b' of component 'mux_2c_1b' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:135]
+INFO: [Synth 8-638] synthesizing module 'mux_2c_1b' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/mux_2c_1b.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'mux_2c_1b' (6#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/mux_2c_1b.vhd:41]
+INFO: [Synth 8-3491] module 'registro_contol' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/registro_contol.vhd:34' bound to instance 'inst_registro_control' of component 'registro_contol' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'registro_contol' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/registro_contol.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'registro_contol' (7#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/registro_contol.vhd:42]
+INFO: [Synth 8-3491] module 'registro_recarga' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/registro_recarga.vhd:34' bound to instance 'inst_registro_recarga' of component 'registro_recarga' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'registro_recarga' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/registro_recarga.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'registro_recarga' (8#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/registro_recarga.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Temporizador_8_bits' (9#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:46]
+INFO: [Synth 8-3491] module 'divider1000' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/divider1000.vhd:34' bound to instance 'inst_divider_1000' of component 'divider1000' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_placa.vhd:240]
+INFO: [Synth 8-638] synthesizing module 'divider1000' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/divider1000.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'divider1000' (10#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/divider1000.vhd:40]
+INFO: [Synth 8-3491] module 'divider100' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/divider100.vhd:34' bound to instance 'inst_divider_100' of component 'divider100' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_placa.vhd:245]
+INFO: [Synth 8-638] synthesizing module 'divider100' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/divider100.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'divider100' (11#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/divider100.vhd:40]
+INFO: [Synth 8-3491] module 'divider100' declared at '/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/divider100.vhd:34' bound to instance 'inst_divider_100_2' of component 'divider100' [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_placa.vhd:250]
+INFO: [Synth 8-256] done synthesizing module 'Temporizador_placa' (12#1) [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_placa.vhd:59]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1390.500 ; gain = 3.863 ; free physical = 2554 ; free virtual = 6997
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1390.500 ; gain = 3.863 ; free physical = 2554 ; free virtual = 6997
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1390.500 ; gain = 3.863 ; free physical = 2554 ; free virtual = 6997
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc]
+Finished Parsing XDC File [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/diego/Escritorio/CEP/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Temporizador_placa_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Temporizador_placa_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1760.375 ; gain = 0.000 ; free physical = 2287 ; free virtual = 6730
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1760.375 ; gain = 0.000 ; free physical = 2288 ; free virtual = 6731
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1760.375 ; gain = 0.000 ; free physical = 2288 ; free virtual = 6731
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1760.375 ; gain = 0.000 ; free physical = 2288 ; free virtual = 6731
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2366 ; free virtual = 6809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2366 ; free virtual = 6809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2368 ; free virtual = 6811
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "tc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clkout_aux" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "clkout_aux" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2358 ; free virtual = 6802
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                6 Bit    Registers := 2     
+	                3 Bit    Registers := 1     
+	                1 Bit    Registers := 7     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   9 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Visualizador_dinamico 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   9 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+Module D_flip_flop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module contador_descendente 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module detector_flancos 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module mux_2c_1b 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module registro_contol 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module registro_recarga 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module divider1000 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module divider100 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 1     
++---Registers : 
+	                6 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      6 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "inst_visualizador_dinamico/" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "inst_divider_100/clkout_aux" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst_divider_100_2/clkout_aux" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst_temporizador_8_bits/inst_contador_descendente/tc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst_divider_1000/clkout_aux" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2341 ; free virtual = 6786
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------------+--------------------------------------+---------------+----------------+
+|Module Name        | RTL Object                           | Depth x Width | Implemented As | 
++-------------------+--------------------------------------+---------------+----------------+
+|bin_to_7seg_anodo  | segmentos                            | 32x7          | LUT            | 
+|Temporizador_placa | inst_bin_7_seg_primer_seg/segmentos  | 32x7          | LUT            | 
+|Temporizador_placa | inst_bin_7_seg_segundo_seg/segmentos | 32x7          | LUT            | 
++-------------------+--------------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2221 ; free virtual = 6666
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2219 ; free virtual = 6664
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2219 ; free virtual = 6663
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2219 ; free virtual = 6664
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2219 ; free virtual = 6664
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2219 ; free virtual = 6664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2219 ; free virtual = 6664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2219 ; free virtual = 6664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2219 ; free virtual = 6664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     4|
+|3     |LUT2 |     6|
+|4     |LUT3 |     7|
+|5     |LUT4 |    25|
+|6     |LUT5 |    13|
+|7     |LUT6 |    17|
+|8     |FDCE |    29|
+|9     |FDRE |    13|
+|10    |FDSE |     8|
+|11    |IBUF |    16|
+|12    |OBUF |    16|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------------------------+----------------------+------+
+|      |Instance                      |Module                |Cells |
++------+------------------------------+----------------------+------+
+|1     |top                           |                      |   155|
+|2     |  inst_divider_100            |divider100            |    15|
+|3     |  inst_divider_1000           |divider1000           |    25|
+|4     |  inst_divider_100_2          |divider100_0          |    15|
+|5     |  inst_temporizador_8_bits    |Temporizador_8_bits   |    51|
+|6     |    inst_contador_descendente |contador_descendente  |    33|
+|7     |    inst_detector_flancos     |detector_flancos      |     3|
+|8     |    inst_registro_control     |registro_contol       |     6|
+|9     |    inst_registro_recarga     |registro_recarga      |     9|
+|10    |  inst_visualizador_dinamico  |Visualizador_dinamico |    16|
++------+------------------------------+----------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2219 ; free virtual = 6664
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1760.375 ; gain = 3.863 ; free physical = 2273 ; free virtual = 6718
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1760.375 ; gain = 373.738 ; free physical = 2273 ; free virtual = 6718
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1760.375 ; gain = 0.000 ; free physical = 2215 ; free virtual = 6660
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1760.375 ; gain = 373.875 ; free physical = 2271 ; free virtual = 6716
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1760.375 ; gain = 0.000 ; free physical = 2271 ; free virtual = 6716
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/diego/Escritorio/CEP/Practica1.1/Practica1.runs/synth_1/Temporizador_placa.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Temporizador_placa_utilization_synth.rpt -pb Temporizador_placa_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 22 15:52:36 2020...

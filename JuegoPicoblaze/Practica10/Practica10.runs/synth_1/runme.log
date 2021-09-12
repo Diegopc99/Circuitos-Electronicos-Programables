@@ -1,0 +1,1100 @@
+
+*** Running vivado
+    with args -log Sistema_empotrado.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Sistema_empotrado.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Sistema_empotrado.tcl -notrace
+Command: synth_design -top Sistema_empotrado -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12707 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:02 . Memory (MB): peak = 1386.641 ; gain = 0.000 ; free physical = 2731 ; free virtual = 7307
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Sistema_empotrado' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:59]
+INFO: [Synth 8-3491] module 'interfaz_ps2' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/interfaz_ps2.vhd:34' bound to instance 'Inst_interfaz_ps2' of component 'interfaz_ps2' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:228]
+INFO: [Synth 8-638] synthesizing module 'interfaz_ps2' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/interfaz_ps2.vhd:47]
+INFO: [Synth 8-3491] module 'Maquina_estados' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Maquina_estados.vhd:34' bound to instance 'inst_maquina_estados' of component 'Maquina_estados' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/interfaz_ps2.vhd:86]
+INFO: [Synth 8-638] synthesizing module 'Maquina_estados' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Maquina_estados.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'Maquina_estados' (1#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Maquina_estados.vhd:50]
+INFO: [Synth 8-3491] module 'Unidad_Operativa' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Unidad_Operativa.vhd:34' bound to instance 'inst_unidad_operativa' of component 'Unidad_Operativa' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/interfaz_ps2.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'Unidad_Operativa' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Unidad_Operativa.vhd:52]
+INFO: [Synth 8-3491] module 'Biestable_ps2_data' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Biestable_ps2_data.vhd:34' bound to instance 'inst_biestable_ps2_data' of component 'Biestable_ps2_data' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Unidad_Operativa.vhd:121]
+INFO: [Synth 8-638] synthesizing module 'Biestable_ps2_data' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Biestable_ps2_data.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Biestable_ps2_data' (2#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Biestable_ps2_data.vhd:41]
+INFO: [Synth 8-3491] module 'detector_flancos' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/detector_flancos.vhd:10' bound to instance 'inst_detector_flancos' of component 'detector_flancos' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Unidad_Operativa.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'detector_flancos' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/detector_flancos.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'detector_flancos' (3#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/detector_flancos.vhd:19]
+INFO: [Synth 8-3491] module 'reg_desplazamiento' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/reg_desplazamiento.vhd:34' bound to instance 'inst_reg_desplaza' of component 'reg_desplazamiento' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Unidad_Operativa.vhd:134]
+INFO: [Synth 8-638] synthesizing module 'reg_desplazamiento' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/reg_desplazamiento.vhd:45]
+WARNING: [Synth 8-614] signal 't_q_shift' is read in the process but is not in the sensitivity list [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/reg_desplazamiento.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'reg_desplazamiento' (4#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/reg_desplazamiento.vhd:45]
+INFO: [Synth 8-3491] module 'contador_estados' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/contador.vhd:34' bound to instance 'inst_contador_estados' of component 'contador_estados' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Unidad_Operativa.vhd:144]
+INFO: [Synth 8-638] synthesizing module 'contador_estados' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/contador.vhd:44]
+WARNING: [Synth 8-6014] Unused sequential element tc_reg was removed.  [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/contador.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'contador_estados' (5#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/contador.vhd:44]
+INFO: [Synth 8-3491] module 'Reg' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Reg.vhd:34' bound to instance 'inst_reg' of component 'Reg' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Unidad_Operativa.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'Reg' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Reg.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (6#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Reg.vhd:42]
+INFO: [Synth 8-3491] module 'Reg_parity' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Reg_parity.vhd:34' bound to instance 'inst_reg_parity' of component 'Reg_parity' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Unidad_Operativa.vhd:166]
+INFO: [Synth 8-638] synthesizing module 'Reg_parity' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Reg_parity.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg_parity' (7#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Reg_parity.vhd:42]
+INFO: [Synth 8-3491] module 'Detector_paridad' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Detector_paridad.vhd:34' bound to instance 'inst_detector_paridad' of component 'Detector_paridad' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Unidad_Operativa.vhd:175]
+INFO: [Synth 8-638] synthesizing module 'Detector_paridad' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Detector_paridad.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'Detector_paridad' (8#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Detector_paridad.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'Unidad_Operativa' (9#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Unidad_Operativa.vhd:52]
+INFO: [Synth 8-256] done synthesizing module 'interfaz_ps2' (10#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/interfaz_ps2.vhd:47]
+INFO: [Synth 8-3491] module 'memoria_ROM' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/memoria_ROM.vhd:34' bound to instance 'Inst_memoria_ROM' of component 'memoria_ROM' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:239]
+INFO: [Synth 8-638] synthesizing module 'memoria_ROM' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/memoria_ROM.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'memoria_ROM' (11#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/memoria_ROM.vhd:43]
+INFO: [Synth 8-3491] module 'Generador_CE_1KHz' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Generador_CE_1KHz.vhd:12' bound to instance 'Inst_generador_ce_1KHz' of component 'Generador_CE_1KHz' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:247]
+INFO: [Synth 8-638] synthesizing module 'Generador_CE_1KHz' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Generador_CE_1KHz.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Generador_CE_1KHz' (12#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Generador_CE_1KHz.vhd:18]
+INFO: [Synth 8-3491] module 'selec_16_entradas_con_reg_y_bypass' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/selec_16_entradas_con_reg_y_bypass.vhd:20' bound to instance 'Inst_selector_entrada' of component 'selec_16_entradas_con_reg_y_bypass' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:253]
+INFO: [Synth 8-638] synthesizing module 'selec_16_entradas_con_reg_y_bypass' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/selec_16_entradas_con_reg_y_bypass.vhd:44]
+INFO: [Synth 8-226] default block is never used [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/selec_16_entradas_con_reg_y_bypass.vhd:65]
+INFO: [Synth 8-256] done synthesizing module 'selec_16_entradas_con_reg_y_bypass' (13#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/selec_16_entradas_con_reg_y_bypass.vhd:44]
+INFO: [Synth 8-3491] module 'gestion_2_interrupciones' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/gestion_2_interrupciones.vhd:34' bound to instance 'Inst_gestor_interrupciones' of component 'gestion_2_interrupciones' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:277]
+INFO: [Synth 8-638] synthesizing module 'gestion_2_interrupciones' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/gestion_2_interrupciones.vhd:44]
+INFO: [Synth 8-3491] module 'detector_flancos' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/detector_flancos.vhd:10' bound to instance 'Inst_detector_flancos_0' of component 'detector_flancos' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/gestion_2_interrupciones.vhd:107]
+INFO: [Synth 8-3491] module 'detector_flancos' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/detector_flancos.vhd:10' bound to instance 'Inst_detector_flancos_1' of component 'detector_flancos' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/gestion_2_interrupciones.vhd:115]
+INFO: [Synth 8-3491] module 'rs_flip_flop' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/rs_flip_flop.vhd:32' bound to instance 'Inst_rs_flip_flop_0' of component 'rs_flip_flop' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/gestion_2_interrupciones.vhd:123]
+INFO: [Synth 8-638] synthesizing module 'rs_flip_flop' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/rs_flip_flop.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'rs_flip_flop' (14#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/rs_flip_flop.vhd:40]
+INFO: [Synth 8-3491] module 'rs_flip_flop' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/rs_flip_flop.vhd:32' bound to instance 'Inst_rs_flip_flop_1' of component 'rs_flip_flop' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/gestion_2_interrupciones.vhd:131]
+INFO: [Synth 8-3491] module 'codificador_con_prioridad_2_a_1' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/codificador_con_prioridad_2_a_1.vhd:32' bound to instance 'Inst_codificador_con_prioridad_2_a_1' of component 'codificador_con_prioridad_2_a_1' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/gestion_2_interrupciones.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'codificador_con_prioridad_2_a_1' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/codificador_con_prioridad_2_a_1.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'codificador_con_prioridad_2_a_1' (15#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/codificador_con_prioridad_2_a_1.vhd:37]
+INFO: [Synth 8-3491] module 'd_flip_flop' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/D_flip_flop.vhd:32' bound to instance 'Inst_d_flip_flop' of component 'd_flip_flop' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/gestion_2_interrupciones.vhd:146]
+INFO: [Synth 8-638] synthesizing module 'd_flip_flop' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/D_flip_flop.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'd_flip_flop' (16#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/D_flip_flop.vhd:40]
+INFO: [Synth 8-3491] module 'or_2_bits' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/or_2_bits.vhd:32' bound to instance 'Inst_or_2_bits' of component 'or_2_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/gestion_2_interrupciones.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'or_2_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/or_2_bits.vhd:38]
+INFO: [Synth 8-256] done synthesizing module 'or_2_bits' (17#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/or_2_bits.vhd:38]
+INFO: [Synth 8-3491] module 'decodificador_1_a_2' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/decodificador_1_a_2.vhd:32' bound to instance 'Inst_decodificador_1_a_2' of component 'decodificador_1_a_2' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/gestion_2_interrupciones.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'decodificador_1_a_2' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/decodificador_1_a_2.vhd:39]
+INFO: [Synth 8-226] default block is never used [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/decodificador_1_a_2.vhd:46]
+INFO: [Synth 8-256] done synthesizing module 'decodificador_1_a_2' (18#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/decodificador_1_a_2.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'gestion_2_interrupciones' (19#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/gestion_2_interrupciones.vhd:44]
+INFO: [Synth 8-3491] module 'picoblaze3_empotrado_s7' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/picoblaze3_empotrado_s7.vhd:21' bound to instance 'Inst_picoblaze_empotrado' of component 'picoblaze3_empotrado_s7' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:287]
+INFO: [Synth 8-638] synthesizing module 'picoblaze3_empotrado_s7' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/picoblaze3_empotrado_s7.vhd:35]
+INFO: [Synth 8-3491] module 'kcpsm3' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:126' bound to instance 'picoblaze3' of component 'kcpsm3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/picoblaze3_empotrado_s7.vhd:81]
+INFO: [Synth 8-638] synthesizing module 'kcpsm3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:144]
+	Parameter INIT bound to: 4'b0001 
+INFO: [Synth 8-113] binding component instance 't_state_lut' to cell 'LUT2' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:390]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'toggle_flop' to cell 'FD' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:396]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_flop1' to cell 'FDS' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:401]
+	Parameter INIT bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'reset_flop2' to cell 'FDS' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:407]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'int_capture_flop' to cell 'FDR' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:425]
+	Parameter INIT bound to: 16'b0000000010000000 
+INFO: [Synth 8-113] binding component instance 'int_pulse_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:431]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'int_flop' to cell 'FDR' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:439]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'ack_flop' to cell 'FD' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:445]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'shadow_carry_flop' to cell 'FDE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:454]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'shadow_zero_flop' to cell 'FDE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:460]
+	Parameter INIT bound to: 16'b1110101010101010 
+INFO: [Synth 8-113] binding component instance 'int_update_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:468]
+	Parameter INIT bound to: 8'b00000100 
+INFO: [Synth 8-113] binding component instance 'int_value_lut' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:476]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'int_enable_flop' to cell 'FDRE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:483]
+	Parameter INIT bound to: 16'b0111010000000000 
+INFO: [Synth 8-113] binding component instance 'move_group_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:496]
+	Parameter INIT bound to: 16'b0101101000111100 
+INFO: [Synth 8-113] binding component instance 'condition_met_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:504]
+	Parameter INIT bound to: 8'b00101111 
+INFO: [Synth 8-113] binding component instance 'normal_count_lut' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:512]
+	Parameter INIT bound to: 16'b0001000000000000 
+INFO: [Synth 8-113] binding component instance 'call_type_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:519]
+	Parameter INIT bound to: 16'b0101010000000000 
+INFO: [Synth 8-113] binding component instance 'push_pop_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:527]
+	Parameter INIT bound to: 4'b1101 
+INFO: [Synth 8-113] binding component instance 'valid_move_lut' to cell 'LUT2' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:535]
+	Parameter INIT bound to: 16'b0100000111111100 
+INFO: [Synth 8-113] binding component instance 'flag_type_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:549]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'flag_write_flop' to cell 'FD' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:557]
+	Parameter INIT bound to: 4'b1000 
+INFO: [Synth 8-113] binding component instance 'flag_enable_lut' to cell 'LUT2' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:562]
+	Parameter INIT bound to: 16'b0000000000000001 
+INFO: [Synth 8-113] binding component instance 'low_zero_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:570]
+	Parameter INIT bound to: 16'b0000000000000001 
+INFO: [Synth 8-113] binding component instance 'high_zero_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:578]
+INFO: [Synth 8-113] binding component instance 'low_zero_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:586]
+INFO: [Synth 8-113] binding component instance 'high_zero_cymux' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:592]
+	Parameter INIT bound to: 8'b00111111 
+INFO: [Synth 8-113] binding component instance 'sel_shadow_zero_lut' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:598]
+INFO: [Synth 8-113] binding component instance 'zero_cymux' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:605]
+INFO: [Synth 8-113] binding component instance 'zero_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:611]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'zero_flag_flop' to cell 'FDRE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:616]
+	Parameter INIT bound to: 16'b0110100110010110 
+INFO: [Synth 8-113] binding component instance 'low_parity_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:625]
+	Parameter INIT bound to: 16'b0110100110010110 
+INFO: [Synth 8-113] binding component instance 'high_parity_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:633]
+INFO: [Synth 8-113] binding component instance 'parity_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:641]
+INFO: [Synth 8-113] binding component instance 'parity_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:647]
+	Parameter INIT bound to: 16'b1111001111111111 
+INFO: [Synth 8-113] binding component instance 'sel_parity_lut' to cell 'LUT4' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:654]
+	Parameter INIT bound to: 8'b11110011 
+INFO: [Synth 8-113] binding component instance 'sel_arith_carry_lut' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:662]
+	Parameter INIT bound to: 4'b1100 
+INFO: [Synth 8-113] binding component instance 'sel_shift_carry_lut' to cell 'LUT2' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:669]
+	Parameter INIT bound to: 4'b0011 
+INFO: [Synth 8-113] binding component instance 'sel_shadow_carry_lut' to cell 'LUT2' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:675]
+INFO: [Synth 8-113] binding component instance 'sel_shadow_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:681]
+INFO: [Synth 8-113] binding component instance 'sel_shift_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:687]
+INFO: [Synth 8-113] binding component instance 'sel_arith_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:693]
+INFO: [Synth 8-113] binding component instance 'sel_parity_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:699]
+INFO: [Synth 8-113] binding component instance 'carry_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:705]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'carry_flag_flop' to cell 'FDRE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:710]
+INFO: [Synth 8-113] binding component instance 'invert_enable' to cell 'INV' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:726]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'vector_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:733]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'value_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:740]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter IS_S_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'register_bit' to cell 'FDRSE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:747]
+INFO: [Synth 8-113] binding component instance 'pc_vector_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:758]
+INFO: [Synth 8-113] binding component instance 'pc_vector_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:764]
+INFO: [Synth 8-113] binding component instance 'pc_value_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:769]
+INFO: [Synth 8-113] binding component instance 'pc_value_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:775]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'vector_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:733]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'value_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:740]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter IS_S_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'register_bit' to cell 'FDRSE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:747]
+INFO: [Synth 8-113] binding component instance 'pc_vector_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:785]
+INFO: [Synth 8-113] binding component instance 'pc_vector_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:791]
+INFO: [Synth 8-113] binding component instance 'pc_value_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:796]
+INFO: [Synth 8-113] binding component instance 'pc_value_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:802]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'vector_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:733]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'value_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:740]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter IS_S_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'register_bit' to cell 'FDRSE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:747]
+INFO: [Synth 8-113] binding component instance 'pc_vector_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:785]
+INFO: [Synth 8-113] binding component instance 'pc_vector_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:791]
+INFO: [Synth 8-113] binding component instance 'pc_value_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:796]
+INFO: [Synth 8-113] binding component instance 'pc_value_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:802]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'vector_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:733]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'value_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:740]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter IS_S_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'register_bit' to cell 'FDRSE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:747]
+INFO: [Synth 8-113] binding component instance 'pc_vector_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:785]
+INFO: [Synth 8-113] binding component instance 'pc_vector_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:791]
+INFO: [Synth 8-113] binding component instance 'pc_value_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:796]
+INFO: [Synth 8-113] binding component instance 'pc_value_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:802]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'vector_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:733]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'value_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:740]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter IS_S_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'register_bit' to cell 'FDRSE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:747]
+INFO: [Synth 8-113] binding component instance 'pc_vector_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:785]
+INFO: [Synth 8-113] binding component instance 'pc_vector_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:791]
+INFO: [Synth 8-113] binding component instance 'pc_value_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:796]
+INFO: [Synth 8-113] binding component instance 'pc_value_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:802]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'vector_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:733]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'value_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:740]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter IS_S_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'register_bit' to cell 'FDRSE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:747]
+INFO: [Synth 8-113] binding component instance 'pc_vector_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:785]
+INFO: [Synth 8-113] binding component instance 'pc_vector_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:791]
+INFO: [Synth 8-113] binding component instance 'pc_value_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:796]
+INFO: [Synth 8-113] binding component instance 'pc_value_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:802]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'vector_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:733]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'value_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:740]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter IS_S_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'register_bit' to cell 'FDRSE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:747]
+INFO: [Synth 8-113] binding component instance 'pc_vector_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:785]
+INFO: [Synth 8-113] binding component instance 'pc_vector_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:791]
+INFO: [Synth 8-113] binding component instance 'pc_value_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:796]
+INFO: [Synth 8-113] binding component instance 'pc_value_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:802]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'vector_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:733]
+	Parameter INIT bound to: 8'b11100100 
+INFO: [Synth 8-113] binding component instance 'value_select_mux' to cell 'LUT3' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:740]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter IS_S_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'register_bit' to cell 'FDRSE' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:747]
+INFO: [Synth 8-113] binding component instance 'pc_vector_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:785]
+INFO: [Synth 8-113] binding component instance 'pc_vector_xor' to cell 'XORCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:791]
+INFO: [Synth 8-113] binding component instance 'pc_value_muxcy' to cell 'MUXCY' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:796]
+INFO: [Common 17-14] Message 'Synth 8-113' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter IS_S_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CE_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter IS_S_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 16'b0000000101000101 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 4'b1000 
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 16'b0000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 16'b0000010000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 16'b1000000000000000 
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 64'b0000000000000000000000000000000000000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 16'b1111111111100010 
+	Parameter INIT bound to: 16'b0110111010001010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 16'b0110111010001010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 16'b0110111010001010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 16'b0110111010001010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 16'b0110111010001010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 16'b0110111010001010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 16'b0110111010001010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 16'b0110111010001010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b00011111 
+	Parameter INIT bound to: 8'b01101100 
+	Parameter INIT bound to: 8'b10010110 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b10010110 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b10010110 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b10010110 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b10010110 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b10010110 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b10010110 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 4'b0010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b10010110 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 16'b0000000000000010 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 8'b11111110 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 8'b11111110 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 8'b11111110 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 8'b11111110 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 8'b11111110 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 8'b11111110 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 8'b11111110 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 8'b11111110 
+	Parameter INIT bound to: 8'b11100100 
+	Parameter INIT bound to: 16'b0000000000010000 
+	Parameter INIT bound to: 16'b0100000000000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 16'b0000000100000000 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 32'b00000000000000000000000000000000 
+	Parameter IS_WCLK_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 16'b0110010101010101 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 16'b1010100110011001 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 16'b1010100110011001 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 16'b1010100110011001 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter IS_R_INVERTED bound to: 1'b0 
+	Parameter INIT bound to: 16'b1010100110011001 
+INFO: [Synth 8-256] done synthesizing module 'kcpsm3' (20#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/kcpsm3.vhd:144]
+INFO: [Synth 8-3491] module 'picocode_s7' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/picocode_s7.vhd:68' bound to instance 'memoria_de_programa' of component 'picocode_s7' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/picoblaze3_empotrado_s7.vhd:97]
+INFO: [Synth 8-638] synthesizing module 'picocode_s7' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/picocode_s7.vhd:75]
+	Parameter DOA_REG bound to: 0 - type: integer 
+	Parameter DOB_REG bound to: 0 - type: integer 
+	Parameter INITP_00 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010101000101010101010110110101010001010101010101101101011101001110100110000001101001101001101000000000000001010101010101010000011 
+	Parameter INITP_01 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_02 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_03 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INITP_07 bound to: 256'b1100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_00 bound to: 256'b0000111001111100000011010001110000001100000011000000101100101010000010100001111011000111000010011100011100001000110001110000011111000111000001101100011100000101110001110000010011000111000000111100011100000010000001110000000000000000000000001100000000000001 
+	Parameter INIT_01 bound to: 256'b0100100000000000010010000000000001000000000100010001011001010000000101000011000000010010000100000001010000110100010100110100000001000011000000110001010000100111010101010110000001000101000000010001010000100101010100010010000001000001000000100000111111001110 
+	Parameter INIT_02 bound to: 256'b0000011100000000110001010000001010100000000000001100110000000101110010110000010011001010000000111100010100000010010100000010111001000101000000001010000000000000110000010000000110000000000000011100000000001010110000000000000010000000000000010101010000100010 
+	Parameter INIT_03 bound to: 256'b1100011100001001110001110000100011000111000001110000011100000000110000110000011010100000000000001100111100001001110011100000100011001101000001111100001100000110010100000011101101000011000000001010000000000000110001110000010111000111000001001100011100000011 
+	Parameter INIT_04 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000 
+	Parameter INIT_05 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_06 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_07 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_08 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_09 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_0F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_10 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_11 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_12 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_13 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_14 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_15 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_16 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_17 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_18 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_19 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_1F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_20 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_21 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_22 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_23 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_24 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_25 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_26 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_27 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_28 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_29 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_2F bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_30 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_31 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_32 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_33 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_34 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_35 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_36 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_37 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_38 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_39 bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3A bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3B bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3C bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3D bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3E bound to: 256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_3F bound to: 256'b0100000000011110000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_A bound to: 18'b000000000000000000 
+	Parameter INIT_B bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter INIT_FILE bound to: NONE - type: string 
+	Parameter IS_CLKARDCLK_INVERTED bound to: 1'b0 
+	Parameter IS_CLKBWRCLK_INVERTED bound to: 1'b0 
+	Parameter IS_ENARDEN_INVERTED bound to: 1'b0 
+	Parameter IS_ENBWREN_INVERTED bound to: 1'b0 
+	Parameter IS_RSTRAMARSTRAM_INVERTED bound to: 1'b0 
+	Parameter IS_RSTRAMB_INVERTED bound to: 1'b0 
+	Parameter IS_RSTREGARSTREG_INVERTED bound to: 1'b0 
+	Parameter IS_RSTREGB_INVERTED bound to: 1'b0 
+	Parameter RAM_MODE bound to: TDP - type: string 
+	Parameter RDADDR_COLLISION_HWCONFIG bound to: DELAYED_WRITE - type: string 
+	Parameter READ_WIDTH_A bound to: 18 - type: integer 
+	Parameter READ_WIDTH_B bound to: 18 - type: integer 
+	Parameter RSTREG_PRIORITY_A bound to: REGCE - type: string 
+	Parameter RSTREG_PRIORITY_B bound to: REGCE - type: string 
+	Parameter SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+	Parameter SRVAL_A bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter SRVAL_B bound to: 72'b000000000000000000000000000000000000000000000000000000000000000000000000 
+	Parameter WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter WRITE_WIDTH_A bound to: 18 - type: integer 
+	Parameter WRITE_WIDTH_B bound to: 18 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'picocode_s7' (21#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/picocode_s7.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'picoblaze3_empotrado_s7' (22#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/picoblaze3_empotrado_s7.vhd:35]
+INFO: [Synth 8-3491] module 'selec_16_salidas_con_reg_y_mem_esc_lec' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/selec_16_salidas_con_reg_y_mem_esc_lec.vhd:34' bound to instance 'Inst_selector_salida' of component 'selec_16_salidas_con_reg_y_mem_esc_lec' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:300]
+INFO: [Synth 8-638] synthesizing module 'selec_16_salidas_con_reg_y_mem_esc_lec' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/selec_16_salidas_con_reg_y_mem_esc_lec.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'selec_16_salidas_con_reg_y_mem_esc_lec' (23#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/selec_16_salidas_con_reg_y_mem_esc_lec.vhd:62]
+INFO: [Synth 8-3491] module 'registro_8_bits' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:34' bound to instance 'Inst_reg_salida_1' of component 'registro_8_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:327]
+INFO: [Synth 8-638] synthesizing module 'registro_8_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'registro_8_bits' (24#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:42]
+INFO: [Synth 8-3491] module 'registro_8_bits' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:34' bound to instance 'Inst_reg_salida_2' of component 'registro_8_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:335]
+INFO: [Synth 8-3491] module 'registro_8_bits' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:34' bound to instance 'Inst_reg_salida_3' of component 'registro_8_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:343]
+INFO: [Synth 8-3491] module 'registro_8_bits' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:34' bound to instance 'Inst_reg_salida_4' of component 'registro_8_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:351]
+INFO: [Synth 8-3491] module 'registro_8_bits' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:34' bound to instance 'Inst_reg_salida_5' of component 'registro_8_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:359]
+INFO: [Synth 8-3491] module 'registro_8_bits' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:34' bound to instance 'Inst_reg_salida_6' of component 'registro_8_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:367]
+INFO: [Synth 8-3491] module 'registro_8_bits' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:34' bound to instance 'Inst_reg_salida_7' of component 'registro_8_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:375]
+INFO: [Synth 8-3491] module 'registro_8_bits' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:34' bound to instance 'Inst_reg_salida_8' of component 'registro_8_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:383]
+INFO: [Synth 8-3491] module 'registro_8_bits' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:34' bound to instance 'Inst_reg_salida_9' of component 'registro_8_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:391]
+INFO: [Synth 8-3491] module 'registro_8_bits' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/registro_8_bits.vhd:34' bound to instance 'Inst_reg_salida_10' of component 'registro_8_bits' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:399]
+INFO: [Synth 8-3491] module 'Control_visualizador_dinamico_8digitos_7seg' declared at '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Control_visualizador_dinamico_8digitos_7seg.vhd:13' bound to instance 'Inst_visualizador_dinamico' of component 'Control_visualizador_dinamico_8digitos_7seg' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:407]
+INFO: [Synth 8-638] synthesizing module 'Control_visualizador_dinamico_8digitos_7seg' [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Control_visualizador_dinamico_8digitos_7seg.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Control_visualizador_dinamico_8digitos_7seg' (25#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Control_visualizador_dinamico_8digitos_7seg.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Sistema_empotrado' (26#1) [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd:59]
+WARNING: [Synth 8-3331] design selec_16_entradas_con_reg_y_bypass has unconnected port port_id[6]
+WARNING: [Synth 8-3331] design selec_16_entradas_con_reg_y_bypass has unconnected port port_id[5]
+WARNING: [Synth 8-3331] design selec_16_entradas_con_reg_y_bypass has unconnected port port_id[4]
+WARNING: [Synth 8-3331] design Generador_CE_1KHz has unconnected port reset
+WARNING: [Synth 8-3331] design memoria_ROM has unconnected port address[7]
+WARNING: [Synth 8-3331] design memoria_ROM has unconnected port address[6]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1391.254 ; gain = 4.613 ; free physical = 2731 ; free virtual = 7308
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1391.254 ; gain = 4.613 ; free physical = 2731 ; free virtual = 7308
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1391.254 ; gain = 4.613 ; free physical = 2731 ; free virtual = 7308
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 184 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/diego/Escritorio/JuegoPicoblaze/Practica10/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Sistema_empotrado_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Sistema_empotrado_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1755.637 ; gain = 0.000 ; free physical = 2466 ; free virtual = 7043
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1755.637 ; gain = 0.000 ; free physical = 2467 ; free virtual = 7044
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 107 instances were transformed.
+  FD => FDRE: 25 instances
+  FDE => FDRE: 2 instances
+  FDR => FDRE: 29 instances
+  FDRSE => FDRSE (FDRE, LUT4, VCC): 10 instances
+  FDS => FDSE: 2 instances
+  INV => LUT1: 4 instances
+  MUXF5 => LUT3: 9 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 8 instances
+  RAM32X1S => RAM32X1S (RAMS32): 10 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 8 instances
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1755.637 ; gain = 0.000 ; free physical = 2467 ; free virtual = 7044
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1755.637 ; gain = 0.000 ; free physical = 2467 ; free virtual = 7044
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2545 ; free virtual = 7123
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2545 ; free virtual = 7123
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2547 ; free virtual = 7124
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "next_estado" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "tc" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "ce_1KHz" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2539 ; free virtual = 7117
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 14    
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 15    
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   3 Input      8 Bit        Muxes := 1     
+	   9 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Maquina_estados 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   7 Input      3 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 4     
+Module Biestable_ps2_data 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module detector_flancos 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module reg_desplazamiento 
+Detailed RTL Component Info : 
++---Registers : 
+	                9 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      9 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module contador_estados 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 1     
+Module Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module Reg_parity 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module Detector_paridad 
+Detailed RTL Component Info : 
++---XORs : 
+	   8 Input      1 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Registers : 
+	                1 Bit    Registers := 2     
+Module memoria_ROM 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module Generador_CE_1KHz 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     17 Bit       Adders := 1     
++---Registers : 
+	               17 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     17 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module selec_16_entradas_con_reg_y_bypass 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   3 Input      8 Bit        Muxes := 1     
+Module rs_flip_flop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module d_flip_flop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module decodificador_1_a_2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module selec_16_salidas_con_reg_y_mem_esc_lec 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+Module registro_8_bits 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module Control_visualizador_dinamico_8digitos_7seg 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   9 Input      8 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5544] ROM "Inst_visualizador_dinamico/" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Inst_generador_ce_1KHz/ce_1KHz" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Inst_gestor_interrupciones/Inst_detector_flancos_1/entrada_s_aux_reg )
+INFO: [Synth 8-3886] merging instance 'Inst_gestor_interrupciones/Inst_detector_flancos_1/entrada_t_1_reg' (FDC) to 'Inst_gestor_interrupciones/Inst_detector_flancos_1/entrada_s_aux_reg'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\Inst_memoria_ROM/data_out_reg[7] )
+WARNING: [Synth 8-3332] Sequential element (Inst_picoblaze_empotrado/picoblaze3/read_strobe_flop) is unused and will be removed from module Sistema_empotrado.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2527 ; free virtual = 7107
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------------+-------------------------+---------------+----------------+
+|Module Name       | RTL Object              | Depth x Width | Implemented As | 
++------------------+-------------------------+---------------+----------------+
+|memoria_ROM       | rom[0]                  | 64x7          | LUT            | 
+|Sistema_empotrado | Inst_memoria_ROM/rom[0] | 64x7          | LUT            | 
++------------------+-------------------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
+-------NONE-------
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2406 ; free virtual = 6985
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2404 ; free virtual = 6983
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2403 ; free virtual = 6982
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2403 ; free virtual = 6982
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2403 ; free virtual = 6982
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2403 ; free virtual = 6982
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2403 ; free virtual = 6982
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2403 ; free virtual = 6982
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2403 ; free virtual = 6982
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     1|
+|2     |CARRY4   |     4|
+|3     |INV      |     3|
+|4     |LUT1     |     3|
+|5     |LUT2     |    29|
+|6     |LUT3     |    79|
+|7     |LUT4     |    51|
+|8     |LUT5     |    15|
+|9     |LUT6     |    39|
+|10    |MUXCY    |    39|
+|11    |MUXF5    |     9|
+|12    |MUXF7    |     8|
+|13    |RAM16X1D |     8|
+|14    |RAM32X1S |    10|
+|15    |RAM64X1S |     8|
+|16    |RAMB18E1 |     1|
+|17    |XORCY    |    37|
+|18    |FD       |    25|
+|19    |FDCE     |   134|
+|20    |FDE      |     2|
+|21    |FDR      |    28|
+|22    |FDRE     |    51|
+|23    |FDS      |     2|
+|24    |IBUF     |     4|
+|25    |OBUF     |    32|
++------+---------+------+
+
+Report Instance Areas: 
++------+------------------------------+--------------------------------------------+------+
+|      |Instance                      |Module                                      |Cells |
++------+------------------------------+--------------------------------------------+------+
+|1     |top                           |                                            |   622|
+|2     |  Inst_generador_ce_1KHz      |Generador_CE_1KHz                           |    28|
+|3     |  Inst_gestor_interrupciones  |gestion_2_interrupciones                    |     4|
+|4     |    Inst_detector_flancos_0   |detector_flancos_9                          |     3|
+|5     |    Inst_rs_flip_flop_0       |rs_flip_flop                                |     1|
+|6     |  Inst_interfaz_ps2           |interfaz_ps2                                |    48|
+|7     |    inst_maquina_estados      |Maquina_estados                             |     7|
+|8     |    inst_unidad_operativa     |Unidad_Operativa                            |    41|
+|9     |      inst_biestable_ps2_data |Biestable_ps2_data                          |     1|
+|10    |      inst_contador_estados   |contador_estados                            |     9|
+|11    |      inst_detector_flancos   |detector_flancos                            |     5|
+|12    |      inst_detector_paridad   |Detector_paridad                            |     7|
+|13    |      inst_reg                |Reg                                         |     8|
+|14    |      inst_reg_desplaza       |reg_desplazamiento                          |    11|
+|15    |  Inst_memoria_ROM            |memoria_ROM                                 |     7|
+|16    |  Inst_picoblaze_empotrado    |picoblaze3_empotrado_s7                     |   331|
+|17    |    memoria_de_programa       |picocode_s7                                 |     1|
+|18    |    picoblaze3                |kcpsm3                                      |   330|
+|19    |  Inst_reg_salida_1           |registro_8_bits                             |     8|
+|20    |  Inst_reg_salida_10          |registro_8_bits_0                           |     8|
+|21    |  Inst_reg_salida_2           |registro_8_bits_1                           |     8|
+|22    |  Inst_reg_salida_3           |registro_8_bits_2                           |     8|
+|23    |  Inst_reg_salida_4           |registro_8_bits_3                           |     8|
+|24    |  Inst_reg_salida_5           |registro_8_bits_4                           |     8|
+|25    |  Inst_reg_salida_6           |registro_8_bits_5                           |     8|
+|26    |  Inst_reg_salida_7           |registro_8_bits_6                           |     8|
+|27    |  Inst_reg_salida_8           |registro_8_bits_7                           |     8|
+|28    |  Inst_reg_salida_9           |registro_8_bits_8                           |     8|
+|29    |  Inst_selector_entrada       |selec_16_entradas_con_reg_y_bypass          |    23|
+|30    |  Inst_selector_salida        |selec_16_salidas_con_reg_y_mem_esc_lec      |    26|
+|31    |  Inst_visualizador_dinamico  |Control_visualizador_dinamico_8digitos_7seg |    38|
++------+------------------------------+--------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2403 ; free virtual = 6982
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1755.637 ; gain = 4.613 ; free physical = 2457 ; free virtual = 7036
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1755.637 ; gain = 368.996 ; free physical = 2457 ; free virtual = 7036
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 184 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1755.637 ; gain = 0.000 ; free physical = 2398 ; free virtual = 6977
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 110 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 15 instances
+  FD => FDRE: 25 instances
+  FDE => FDRE: 2 instances
+  FDR => FDRE: 28 instances
+  FDS => FDSE: 2 instances
+  INV => LUT1: 3 instances
+  MUXF5 => LUT3: 9 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 8 instances
+  RAM32X1S => RAM32X1S (RAMS32): 10 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+214 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1755.637 ; gain = 369.133 ; free physical = 2452 ; free virtual = 7031
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1755.637 ; gain = 0.000 ; free physical = 2452 ; free virtual = 7031
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.runs/synth_1/Sistema_empotrado.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Sistema_empotrado_utilization_synth.rpt -pb Sistema_empotrado_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 25 11:34:33 2020...

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1600782733">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="Temporizador_placa.drc"/>
+  <File Type="BG-BGN" Name="Temporizador_placa.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Temporizador_placa.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Temporizador_placa.ltx"/>
+  <File Type="BITSTR-MMI" Name="Temporizador_placa.mmi"/>
+  <File Type="BITSTR-BMM" Name="Temporizador_placa_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="Temporizador_placa.nky"/>
+  <File Type="BITSTR-RBT" Name="Temporizador_placa.rbt"/>
+  <File Type="BITSTR-MSK" Name="Temporizador_placa.msk"/>
+  <File Type="BG-BIN" Name="Temporizador_placa.bin"/>
+  <File Type="BG-BIT" Name="Temporizador_placa.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Temporizador_placa_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Temporizador_placa_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Temporizador_placa_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="Temporizador_placa.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Temporizador_placa_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Temporizador_placa_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Temporizador_placa_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Temporizador_placa_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Temporizador_placa_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Temporizador_placa_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Temporizador_placa_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Temporizador_placa_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Temporizador_placa_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="Temporizador_placa_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Temporizador_placa_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Temporizador_placa_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Temporizador_placa_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Temporizador_placa_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Temporizador_placa_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Temporizador_placa_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Temporizador_placa_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Temporizador_placa_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Temporizador_placa_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Temporizador_placa_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Temporizador_placa_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Temporizador_placa_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Temporizador_placa_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="Temporizador_placa_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Temporizador_placa_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="Temporizador_placa_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="Temporizador_placa_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Temporizador_placa_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Temporizador_placa_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Temporizador_placa_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="Temporizador_placa_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Temporizador_placa_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Temporizador_placa_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Temporizador_placa_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Temporizador_placa_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Temporizador_placa_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Temporizador_placa_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Temporizador_placa_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="Temporizador_placa_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Temporizador_placa_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Temporizador_placa_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Temporizador_placa_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="Temporizador_placa_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Temporizador_placa.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Temporizador_placa_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="Temporizador_placa_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Temporizador_placa_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="Temporizador_placa_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Temporizador_placa_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="Temporizador_placa_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Temporizador_placa_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="Temporizador_placa.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/D_flip_flop.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Temporizador_8_bits.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Visualizador_dinamico.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/bin_to_7_seg.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/contador_descendente.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/detector_flancos.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divider100.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/divider1000.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_2c_1b.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/registro_contol.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/registro_recarga.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Temporizador_placa.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/D_flip_flop_placa.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Generador_CE_1KHz.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Temporizador_placa"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/XDC.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

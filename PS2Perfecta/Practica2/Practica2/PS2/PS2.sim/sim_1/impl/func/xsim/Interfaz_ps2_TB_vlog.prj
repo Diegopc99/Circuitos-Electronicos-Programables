@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"Interfaz_ps2_TB_func_impl.v" \
+
+# Do not sort compile order
+nosort

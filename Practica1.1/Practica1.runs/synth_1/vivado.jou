@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Sep 22 15:52:14 2020
+# Process ID: 11118
+# Current directory: /home/diego/Escritorio/CEP/Practica1.1/Practica1.runs/synth_1
+# Command line: vivado -log Temporizador_placa.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Temporizador_placa.tcl
+# Log file: /home/diego/Escritorio/CEP/Practica1.1/Practica1.runs/synth_1/Temporizador_placa.vds
+# Journal file: /home/diego/Escritorio/CEP/Practica1.1/Practica1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source Temporizador_placa.tcl -notrace

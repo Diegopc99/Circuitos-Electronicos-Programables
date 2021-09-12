@@ -1,0 +1,7 @@
+Running: xsim.dir/Temorizador_8_bits_TB_behav/xsimk -simmode gui -wdb Temorizador_8_bits_TB_behav.wdb -simrunnum 0 -socket 35151
+Design successfully loaded
+Design Loading Memory Usage: 43596 KB (Peak: 43716 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 133532 KB (Peak: 190868 KB)
+Simulation CPU Usage: 20 ms

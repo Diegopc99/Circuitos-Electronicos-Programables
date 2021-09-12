@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4000138956135183646  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 62c634ce7aa84fa29138e7c8a0774e9c --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot Sistema_empotrado_TB_behav xil_defaultlib.Sistema_empotrado_TB" , 
+    buildDate : "Dec  6 2018" , 
+    buildTime : "23:39:36" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/Sistema_empotrado_TB_behav/xsimk\"   \"xsim.dir/Sistema_empotrado_TB_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/Sistema_empotrado_TB_behav/obj/xsim_1.lnx64.o\" \"xsim.dir/Sistema_empotrado_TB_behav/obj/xsim_2.lnx64.o\" -L\"/home/diego/Vivado/Vivado/2018.3/lib/lnx64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../SistemaEmpotradoPicoblaze.srcs/sources_1/imports/Sw/kcpsm3.vhd" \
+"../../../../SistemaEmpotradoPicoblaze.srcs/sources_1/imports/Sw/picoblaze3_empotrado_s7.vhd" \
+"../../../../Sw/picocode_s7.vhd" \
+"../../../../SistemaEmpotradoPicoblaze.srcs/sim_1/new/testbench_picoblaze_3_empotrado_s7.vhd" \
+
+# Do not sort compile order
+nosort

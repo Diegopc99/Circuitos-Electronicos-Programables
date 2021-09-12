@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Nov  8 11:11:23 2020
+# Process ID: 5065
+# Current directory: /home/diego/Escritorio/CEPPicoblaze/SistemaEmpotradoPicoblaze/SistemaEmpotradoPicoblaze.sim/sim_1/behav/xsim
+# Command line: wbtcv -mode batch -source /home/diego/Escritorio/CEPPicoblaze/SistemaEmpotradoPicoblaze/SistemaEmpotradoPicoblaze.sim/sim_1/behav/xsim/xsim.dir/Sistema_empotrado_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/diego/Escritorio/CEPPicoblaze/SistemaEmpotradoPicoblaze/SistemaEmpotradoPicoblaze.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: /home/diego/Escritorio/CEPPicoblaze/SistemaEmpotradoPicoblaze/SistemaEmpotradoPicoblaze.sim/sim_1/behav/xsim/webtalk.jou
+#-----------------------------------------------------------
+source /home/diego/Escritorio/CEPPicoblaze/SistemaEmpotradoPicoblaze/SistemaEmpotradoPicoblaze.sim/sim_1/behav/xsim/xsim.dir/Sistema_empotrado_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+webtalk_transmit: Time (s): cpu = 00:00:00.59 ; elapsed = 00:00:06 . Memory (MB): peak = 401.059 ; gain = 0.000 ; free physical = 3107 ; free virtual = 7503
+INFO: [Common 17-206] Exiting Webtalk at Sun Nov  8 11:11:29 2020...

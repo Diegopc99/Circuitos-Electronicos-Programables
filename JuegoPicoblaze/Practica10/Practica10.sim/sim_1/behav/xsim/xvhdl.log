@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/JuegoPicoblaze/Practica10/Practica10.srcs/sources_1/new/Sistema_empotrado.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Sistema_empotrado'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/diego/Escritorio/JuegoPicoblaze/Practica10/Sw/picocode_s7.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'picocode_s7'

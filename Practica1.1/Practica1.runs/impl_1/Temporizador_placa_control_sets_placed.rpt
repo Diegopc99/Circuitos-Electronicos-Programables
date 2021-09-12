@@ -1,0 +1,75 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Tue Sep 22 15:53:00 2020
+| Host         : Diego running 64-bit Linux Mint 19.3 Tricia
+| Command      : report_control_sets -verbose -file Temporizador_placa_control_sets_placed.rpt
+| Design       : Temporizador_placa
+| Device       : xc7a100t
+-----------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |     7 |
+| Unused register locations in slices containing registers |    14 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      4 |            1 |
+|      7 |            2 |
+|      8 |            2 |
+|     15 |            1 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |              29 |           10 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              20 |            8 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------+-----------------------------------------------------+------------------------------------------------------+------------------+----------------+
+|             Clock Signal            |                    Enable Signal                    |                   Set/Reset Signal                   | Slice Load Count | Bel Load Count |
++-------------------------------------+-----------------------------------------------------+------------------------------------------------------+------------------+----------------+
+|  clk_IBUF_BUFG                      |                                                     |                                                      |                1 |              1 |
+|  clk_IBUF_BUFG                      | load_control_IBUF                                   | reset_IBUF                                           |                2 |              4 |
+|  inst_divider_100/CLK               |                                                     | reset_IBUF                                           |                2 |              7 |
+|  inst_divider_1000/clkout_aux_reg_0 |                                                     | reset_IBUF                                           |                2 |              7 |
+|  clk_IBUF_BUFG                      | load_recarga_IBUF                                   | reset_IBUF                                           |                2 |              8 |
+|  clk_IBUF_BUFG                      | inst_temporizador_8_bits/inst_detector_flancos/E[0] | inst_temporizador_8_bits/inst_registro_control/SS[0] |                4 |              8 |
+|  clk_IBUF_BUFG                      |                                                     | reset_IBUF                                           |                6 |             15 |
++-------------------------------------+-----------------------------------------------------+------------------------------------------------------+------------------+----------------+
+
+

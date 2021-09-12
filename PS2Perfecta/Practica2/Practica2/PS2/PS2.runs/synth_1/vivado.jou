@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov 23 17:07:08 2020
+# Process ID: 4948
+# Current directory: C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.runs/synth_1
+# Command line: vivado.exe -log interfaz_ps2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source interfaz_ps2.tcl
+# Log file: C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.runs/synth_1/interfaz_ps2.vds
+# Journal file: C:/Users/alumno/Desktop/Practica2/Practica2/PS2/PS2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source interfaz_ps2.tcl -notrace

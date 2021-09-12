@@ -1,0 +1,382 @@
+
+*** Running vivado
+    with args -log Temporizador_8_bits.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Temporizador_8_bits.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Temporizador_8_bits.tcl -notrace
+Command: synth_design -top Temporizador_8_bits -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7965 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1386.645 ; gain = 0.000 ; free physical = 3611 ; free virtual = 7898
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Temporizador_8_bits' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:46]
+INFO: [Synth 8-3491] module 'D_flip_flop' declared at '/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/D_flip_flop.vhd:34' bound to instance 'inst_D_flip_flop' of component 'D_flip_flop' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'D_flip_flop' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/D_flip_flop.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'D_flip_flop' (1#1) [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/D_flip_flop.vhd:41]
+INFO: [Synth 8-3491] module 'contador_descendente' declared at '/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/contador_descendente.vhd:34' bound to instance 'inst_contador_descendente' of component 'contador_descendente' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'contador_descendente' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/contador_descendente.vhd:44]
+WARNING: [Synth 8-6014] Unused sequential element tc_reg was removed.  [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/contador_descendente.vhd:59]
+INFO: [Synth 8-256] done synthesizing module 'contador_descendente' (2#1) [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/contador_descendente.vhd:44]
+INFO: [Synth 8-3491] module 'detector_flancos' declared at '/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/detector_flancos.vhd:34' bound to instance 'inst_detector_flancos' of component 'detector_flancos' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:129]
+INFO: [Synth 8-638] synthesizing module 'detector_flancos' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/detector_flancos.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'detector_flancos' (3#1) [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/detector_flancos.vhd:42]
+INFO: [Synth 8-3491] module 'mux_2c_1b' declared at '/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/mux_2c_1b.vhd:34' bound to instance 'inst_mux_2c_1b' of component 'mux_2c_1b' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:135]
+INFO: [Synth 8-638] synthesizing module 'mux_2c_1b' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/mux_2c_1b.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'mux_2c_1b' (4#1) [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/mux_2c_1b.vhd:41]
+INFO: [Synth 8-3491] module 'registro_contol' declared at '/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/registro_contol.vhd:34' bound to instance 'inst_registro_control' of component 'registro_contol' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:141]
+INFO: [Synth 8-638] synthesizing module 'registro_contol' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/registro_contol.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'registro_contol' (5#1) [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/registro_contol.vhd:42]
+INFO: [Synth 8-3491] module 'registro_recarga' declared at '/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/registro_recarga.vhd:34' bound to instance 'inst_registro_recarga' of component 'registro_recarga' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'registro_recarga' [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/registro_recarga.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'registro_recarga' (6#1) [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/registro_recarga.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Temporizador_8_bits' (7#1) [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/sources_1/new/Temporizador_8_bits.vhd:46]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1390.504 ; gain = 3.859 ; free physical = 3622 ; free virtual = 7909
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1390.504 ; gain = 3.859 ; free physical = 3623 ; free virtual = 7910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1390.504 ; gain = 3.859 ; free physical = 3623 ; free virtual = 7910
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:8]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:8]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'A'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:60]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:60]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'B'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:61]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:61]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'C'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'E'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'F'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'G'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'DP'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an0'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an1'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an2'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an3'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an4'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:74]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:74]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an5'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:75]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:75]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an6'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'an7'. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.srcs/constrs_1/new/XDC.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Temporizador_8_bits_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Temporizador_8_bits_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1742.887 ; gain = 0.000 ; free physical = 3365 ; free virtual = 7651
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1742.887 ; gain = 0.000 ; free physical = 3366 ; free virtual = 7653
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1742.887 ; gain = 0.000 ; free physical = 3366 ; free virtual = 7653
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1742.887 ; gain = 0.000 ; free physical = 3366 ; free virtual = 7653
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3433 ; free virtual = 7720
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3433 ; free virtual = 7720
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3435 ; free virtual = 7722
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "tc" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3427 ; free virtual = 7714
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 3     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module D_flip_flop 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module contador_descendente 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module detector_flancos 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module mux_2c_1b 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module registro_contol 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module registro_recarga 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "inst_contador_descendente/tc" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3415 ; free virtual = 7703
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3292 ; free virtual = 7580
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3292 ; free virtual = 7580
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3290 ; free virtual = 7579
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3290 ; free virtual = 7579
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3290 ; free virtual = 7579
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3290 ; free virtual = 7579
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3290 ; free virtual = 7579
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3290 ; free virtual = 7579
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3290 ; free virtual = 7579
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT2 |     2|
+|3     |LUT4 |     3|
+|4     |LUT5 |     4|
+|5     |LUT6 |     8|
+|6     |FDCE |     2|
+|7     |FDRE |    12|
+|8     |FDSE |     8|
+|9     |IBUF |    17|
+|10    |OBUF |     9|
++------+-----+------+
+
+Report Instance Areas: 
++------+----------------------------+---------------------+------+
+|      |Instance                    |Module               |Cells |
++------+----------------------------+---------------------+------+
+|1     |top                         |                     |    66|
+|2     |  inst_contador_descendente |contador_descendente |    21|
+|3     |  inst_detector_flancos     |detector_flancos     |     2|
+|4     |  inst_registro_control     |registro_contol      |     8|
+|5     |  inst_registro_recarga     |registro_recarga     |     8|
++------+----------------------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3290 ; free virtual = 7579
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1742.887 ; gain = 3.859 ; free physical = 3345 ; free virtual = 7633
+Synthesis Optimization Complete : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 1742.887 ; gain = 356.242 ; free physical = 3345 ; free virtual = 7633
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1743.887 ; gain = 0.000 ; free physical = 3286 ; free virtual = 7575
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 19 Warnings, 18 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1743.887 ; gain = 357.383 ; free physical = 3342 ; free virtual = 7631
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1743.887 ; gain = 0.000 ; free physical = 3342 ; free virtual = 7631
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/diego/Escritorio/CEP Acabado/Practica1.1/Practica1.runs/synth_1/Temporizador_8_bits.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Temporizador_8_bits_utilization_synth.rpt -pb Temporizador_8_bits_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 28 17:32:01 2020...
